@@ -46,6 +46,12 @@ DEFAULT_PAGINATION = 10
 # Theme
 THEME = 'pelican-theme/pelican-octopress-theme/'
 
+# Plugin
+PLUGIN_PATH = 'pelican-plugins/liquid_tags'
+PLUGINS = ['liquid_tags.img', 'liquid_tags.video', 'liquid_tags.code',
+			'liquid_tags.literal'
+			]
+
 # Static paths will be copied without parsing their contents
 STATIC_PATHS = ['images', 'downloads', 'favicon.png', 'README.md',]
 
