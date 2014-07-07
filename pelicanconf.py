@@ -46,6 +46,9 @@ DEFAULT_PAGINATION = 10
 # Theme
 THEME = 'pelican-theme/pelican-octopress-theme/'
 
+# Static paths will be copied without parsing their contents
+STATIC_PATHS = ['images', 'downloads', 'favicon.png', 'README.md',]
+
 # Search
 SEARCH_BOX = True
 
