@@ -53,7 +53,7 @@ PLUGINS = ['liquid_tags.img', 'liquid_tags.video', 'liquid_tags.include_code',
 			]
 
 # Static paths will be copied without parsing their contents
-STATIC_PATHS = ['images', 'downloads', 'favicon.png', 'README.md',]
+STATIC_PATHS = ['images', 'downloads', 'favicon.png', 'README.md', 'googled5535dfb6f169df8.html']
 
 # Search
 SEARCH_BOX = True
