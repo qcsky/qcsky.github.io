@@ -4,13 +4,26 @@ from __future__ import unicode_literals
 
 AUTHOR = u'qcsky'
 SITENAME = u"qcsky's blog"
+SITESUBTITLE = u'Nothing is impossible'
 SITEURL = ''
 
 PATH = 'content'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Asia/Shanghai'
 
 DEFAULT_LANG = u'en'
+
+# Title menu
+MENUITEMS = [
+				('Home', '/'),
+				('Archives', '/archives.html')
+			]
+
+NEWST_FIRST_ARCHIVES = True
+
+# URL settings
+ARTICLE_URL = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -19,15 +32,22 @@ TRANSLATION_FEED_ATOM = None
 
 # Blogroll
 LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+         ('Python.org', 'http://python.org/'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Github', '#'),
+          ('Facebook', '#'),)
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# Theme
+THEME = 'pelican-theme/pelican-octopress-theme/'
+
+# Search
+SEARCH_BOX = True
+
+# QR Code generation
+QR_CODE = True
