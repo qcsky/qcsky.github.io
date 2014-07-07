@@ -47,8 +47,8 @@ DEFAULT_PAGINATION = 10
 THEME = 'pelican-theme/pelican-octopress-theme/'
 
 # Plugin
-PLUGIN_PATH = 'pelican-plugins/liquid_tags'
-PLUGINS = ['liquid_tags.img', 'liquid_tags.video', 'liquid_tags.code',
+PLUGIN_PATH = 'pelican-plugins'
+PLUGINS = ['liquid_tags.img', 'liquid_tags.video', 'liquid_tags.include_code',
 			'liquid_tags.literal'
 			]
 
