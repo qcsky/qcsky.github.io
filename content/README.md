@@ -1,3 +1,3 @@
-## Another Pelican Blog
+## Yet Another Pelican Blog
 
-¸öÈË Blog [http://qcsky.github.io](http://qcsky.github.io) »¶Ó­·ÃÎÊ£¡
+ä¸ªäºº Blog [http://qcsky.github.io](http://qcsky.github.io) æ¬¢è¿è®¿é—®ï¼
